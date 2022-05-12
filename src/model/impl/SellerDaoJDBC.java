@@ -44,7 +44,7 @@ public class SellerDaoJDBC implements SellerDao {
             if (rowsAffected > 0) {
                 ResultSet resultSet = preparedStatement.getGeneratedKeys();
 
-                //se o valor abaixo existir, ele vai ser pego e atribuir o Id dentro do objeto Seller
+                //se o valor abaixo existir, ele vai ser pego e atribuir o Id dentro do objeto Seller e mostrar na tela
                 if (resultSet.next()) {
                     int id = resultSet.getInt(1);
                     seller.setId(id);
