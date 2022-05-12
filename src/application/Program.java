@@ -1,20 +1,20 @@
 package application;
 
-import db.DB;
-import db.DbException;
-import db.DbIntegrityException;
+import java.util.Date;
 import model.entities.Department;
-
-import javax.swing.plaf.nimbus.State;
+import model.entities.Seller;
 import java.sql.*;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
+
 
 public class Program {
     public static void main(String[] args) {
 
         Department obj = new Department(1, "Books");
         System.out.println(obj);
+
+        Seller seller = new Seller(1, "Fulano", "fulano@gmail.com", new Date(), 2000.00, obj);
+
+        System.out.println(seller);
 
     }
 
