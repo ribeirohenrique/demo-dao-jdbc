@@ -9,7 +9,6 @@ public class Department implements Serializable {
 
     @Serial
     private static final long serialVersionUID = 8763655018983570959L;
-
     private Integer id;
     private String name;
 
