@@ -6,6 +6,7 @@ import model.entities.Department;
 import model.entities.Seller;
 
 import java.awt.font.FontRenderContext;
+import java.util.Date;
 import java.util.List;
 
 
@@ -31,7 +32,12 @@ public class Program {
         sellerList = sellerDao.findAll();
         sellerList.forEach(System.out::println);
 
+        System.out.println("===== Teste 4: Seller insert =====");
 
+        Seller newSeller = new Seller(null, "Rafael", "Rafael@gmail.com", new Date(), 24359.10, department);
+        sellerDao.insert(newSeller);
+
+        System.out.println("Inserted. New Id: " + newSeller.getId());
 
     }
 
