@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="32d8ad82-b56f-4b74-8ccc-f3f4af91a1a4" name="Changes" comment="Insert implementation">
+    <list default="true" id="32d8ad82-b56f-4b74-8ccc-f3f4af91a1a4" name="Changes" comment="Update implementation">
       <change beforePath="$PROJECT_DIR$/src/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/Program.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/impl/SellerDaoJDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/impl/SellerDaoJDBC.java" afterDir="false" />
     </list>
@@ -80,7 +80,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652376229044</updated>
-      <workItem from="1652376230307" duration="7525000" />
+      <workItem from="1652376230307" duration="7835000" />
     </task>
     <task id="LOCAL-00001" summary="Department entity class">
       <created>1652377234986</created>
@@ -138,7 +138,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652383342069</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Update implementation">
+      <created>1652383882405</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1652383882405</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -161,6 +168,7 @@
     <MESSAGE value="Reusing instantiation" />
     <MESSAGE value="FindAll and FindByDepartment implementation" />
     <MESSAGE value="Insert implementation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Insert implementation" />
+    <MESSAGE value="Update implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update implementation" />
   </component>
 </project>
